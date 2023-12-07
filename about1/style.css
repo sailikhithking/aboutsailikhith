@@ -1,0 +1,107 @@
+.web-logo {
+       height: 50px;
+       transition: transform 0.3s ease;
+       border-radius: 40%;
+     }
+     .web-logo:hover{
+       transform: rotate(360deg);
+     }
+     
+     .nav-item {
+       color: white;
+     }
+     
+     .nav-item:hover {
+       color: green;
+     }
+     
+     .anch {
+       margin-left: auto;
+     }
+     
+     .items {
+       color: white;
+     }
+     .img-box{
+       width: auto;
+       max-width: 100%;
+       text-align: center;
+       height: auto;
+     }
+     .my-phot{
+       border-radius: 50%;
+       height: auto;
+       width: 100%;
+       max-width: 200px;
+       margin-top: 60px;
+       transition: transform 1.3s ease;
+     }
+     .my-phot:hover{
+       /*transform: scale(1.1);*/
+       transform: rotate(360deg);
+     }
+     .contant {
+       text-align: center;
+       padding-top: 40px;
+       width: auto;
+       margin-left: 10vw;
+       margin-right: 10vw;
+       transition: transform 1.3s ease; /* Adding a smooth transition effect */
+     }
+     
+     .contant:hover {
+       transform: scale(1.1); /* Zoom in by 10% on hover */
+     }
+     .mass-list{
+       color: #dadada;
+       transition: transform 0.3s ease;
+       margin: 15px  ;
+     }
+     .mass-list:hover{
+       color: rgb(64, 192, 64);
+       transform: scale(1.4);
+     }
+     .sicial{
+       text-align: center;
+     }
+     .inst-log{
+       height: auto;
+       margin-top: 3vw;
+       cursor: pointer;
+       transition: 0.3s ease;
+     }
+     .Instaram{
+       font-size: 56px;
+       font-weight: bold;
+       background: linear-gradient(90deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+       background-clip: text;
+       -webkit-background-clip: text;
+       color: transparent;
+     }
+     .facebook-text {
+       background: linear-gradient(45deg, #1877f2, #1877f2 25%, #4a63e7 25%, #4a63e7 50%, #0099ff 50%, #0099ff 75%, #1ec99e 75%, #1ec99e);
+       background-clip: text;
+       color: transparent;
+       display: inline-block;
+       color: white;
+       font-size: 56px;
+     }
+     .link-logo{
+       height: 200px;
+       border-radius: 10px;
+       cursor: pointer;
+       transition: 0.3s;
+     }
+     .Facebook{
+       cursor: pointer;
+       transition: 0.3s;
+     }
+     .inst-log:hover{
+      transform: scale(0.9);
+     }
+     .Facebook:hover{
+      transform: scale(0.9);
+     }
+     .link-logo:hover{
+      transform: scale(0.9);
+     }
